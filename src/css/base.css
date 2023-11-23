@@ -1,0 +1,79 @@
+body {
+    font-family: Manrope, sans-serif;
+    color: rgba(252, 249, 249, 0.50);
+    background-color: #1C2225;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section {
+    padding-bottom: 80px;
+}
+
+.section-title {
+    color: #FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .section {
+        padding-bottom: 100px;
+    }
+    .section-title {
+        font-size: 44px;
+        line-height: 1.145;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .section {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+}
+
