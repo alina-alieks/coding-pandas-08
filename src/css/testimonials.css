@@ -1,12 +1,21 @@
+
+/*===========Розміри секцій===========*/
 .testi{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+.section-title {
+    margin-bottom: 64px;
+    font-weight: 500;
+}
+/*===========Розміри секцій===========*/
+
+/*===========Позиціонування фото===========*/
 .testi-list-item-photo{
     position:absolute;
     top: 0;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    left: 50%;
+    transform: translate(-50%, -40%);
 }
 .testi-list-item-name{
         text-align: center;
@@ -17,27 +26,72 @@
         color: #FCF9F9;
         margin-bottom: 8px;
 }
+.testi-list-item {
+    position: relative;
+    display: block;
+}
+/*===========Позиціонування фото===========*/
+
+/*===========Стилі шрифтів===========*/
 .testi-list-item-text{
 text-align: center;
 font-size: 14px;
 line-height: normal;
 color: rgba(252, 249, 249, 0.40);
 }
-.testi-list-item{
-border-radius: 4px;
-border: 1px solid rgba(252, 249, 249, 0.10);
-}
-.testi-list-item-box{
+/*===========Стилі шрифтів===========*/
 
-}
+/*==========Стилі ліжок===========*/
 .testi-list-item-details{
     padding-left: 18px;
     padding-right: 18px;
     padding-bottom: 18px;
+    padding-top: 54px;
 }
-.testi-list-item-box{
-    position: relative;
+.testi-list-item {
+    border-radius: 4px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+}
+.testi-list-item:nth-child(2),
+.testi-list-item:nth-child(3) {
+    display: none;
+}
+/*==========Стилі ліжок===========*/
+
+/*==========Tablet 768px===========*/
+@media screen and (min-width:768px) {
+    .testi{
+        padding: 100px 32px;
+    }
+    .testi-list-item:nth-child(2){
+        display: block;
+    }
+    .testi-list{
+        display: flex;
+        column-gap: 32px;
+    }
+    .testi-list-item-text{
+        font-size: 16px;
+    }
+}
+/*==========Tablet 768px===========*/
+
+/*==========Tablet 1280px===========*/
+@media screen and (min-width:1280px){
+.testi {
+    padding: 150px 100px;
+}
+.testi-list-item:nth-child(3) {
     display: block;
-    height: 34px;
-    margin-bottom: 20px;
 }
+.testi-list {
+    column-gap: 26px;
+}
+.testi-list-item{
+    transition: border-color 250ms cubic-bezier(0.40, 0, 0.2, 1);
+}
+.testi-list-item:hover{
+    border-color: #ECD979;
+}
+}
+/*==========Tablet 1280px===========*/
