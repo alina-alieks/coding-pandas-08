@@ -1,6 +1,32 @@
 .style-section {
     background-color: #1C2225;
-    background-image: url(../img/your-order/order-back-tab.png);
+    /* background-image: url(../img/your-order/order-back-tab.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left bottom; */
+}
+
+.your-order-cont {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.order-pic {
+    display: none;
+}
+
+.title-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.your-order-title {
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+}
+.order-title-decor {
+    color: #ECD979;
 }

@@ -1,5 +1,5 @@
 <section class="section style-section" id="customer-order">
-    <div class="container">
+    <div class="container your-order-cont">
         <div class="order-pic">
             <img src="../img/your-order/order-img-desktop.jpg" alt="" width="518" height="521">
         </div>
@@ -7,20 +7,20 @@
             <h2 class="your-order-title">
                 <span class="order-title-decor">Your order</span> is our priority: Personalized approach and quality of service
             </h2>
-            <form action="">
-                <label for="">
-                    <input type="text">
+            <form class="order-form">
+                <label class="order-label" for="user-name">
+                    <input class="order-input"  type="text" name="user-name" id="user-name" required pattern="[a-zA-zа-яА-яіІєЄїЇ'йЙґҐ]+">
                 </label>
-                <label for="">
-                    <input type="text">
+                <label class="order-label" for="user-email">
+                    <input class="order-input"  type="email" name="user-email" id="user-email" required>
                 </label>
-                <label for="">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                <label class="order-label" for="user-comment">
+                    <textarea class="order-comment"  name="user-comment" id="user-comment" placeholder=""></textarea>
                 </label>
-                <button type="submit">
+                <button class="order-btn"  type="submit">
                     Send
-                    <svg>
-                        <use></use>
+                    <svg class="order-btn-icon" width="26" height="10">
+                        <use href="../img/icons.svg#icon-arrow"></use>
                     </svg>
                 </button>
             </form>
