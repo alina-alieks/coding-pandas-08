@@ -1,5 +1,7 @@
 .style-section {
     background-color: #1C2225;
+    padding-top: 80px;
+    padding-bottom: 0px;
 }
 
 
@@ -96,13 +98,19 @@ textarea::placeholder{
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
 /* ================= 768px BREAKPOINT=============================== */
+
+
 @media screen and (min-width: 768px) {
     .style-section {
-        background-image: url(../img/your-order/order-back-tab.png);
+        background: url(../img/your-order/order-back-tab.png);
         background-repeat: no-repeat;
         background-position: left bottom;
-        margin-bottom: 100px;
+        background-origin: padding-box;
+        padding-top: 100px;
+        padding-bottom: 80px;
     }
 
     .your-order-cont {
@@ -114,7 +122,6 @@ textarea::placeholder{
         max-width: 542px;
         font-size: 44px;
         line-height: 1.32;
-
     }
 
     .order-pic {
@@ -144,5 +151,15 @@ textarea::placeholder{
     }
 
 }
+@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
+    .style-section {
+        background: url(../img/your-order/order-back-tab@2x.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-origin: padding-box;
+        background-size: 323px 484px;
+    }
+}
+
 
 /* ================= /END 768px BREAKPOINT=============================== */
