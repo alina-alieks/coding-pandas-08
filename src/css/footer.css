@@ -2,6 +2,7 @@
     background-image: url('../img/footer/footer-back-mob.png');
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 100%;
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
