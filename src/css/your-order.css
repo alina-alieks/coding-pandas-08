@@ -1,14 +1,7 @@
 .style-section {
     background-color: #1C2225;
-    /* background-image: url(../img/your-order/order-back-tab.png);
-    background-repeat: no-repeat;
-    background-position: left bottom; */
 }
 
-.your-order-cont {
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .order-pic {
     display: none;
@@ -102,3 +95,54 @@ textarea::placeholder{
     border: 1px solid rgba(252, 249, 249, 0.10);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* ================= 768px BREAKPOINT=============================== */
+@media screen and (min-width: 768px) {
+    .style-section {
+        background-image: url(../img/your-order/order-back-tab.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        margin-bottom: 100px;
+    }
+
+    .your-order-cont {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+    .your-order-title{
+        max-width: 542px;
+        font-size: 44px;
+        line-height: 1.32;
+
+    }
+
+    .order-pic {
+        display: block;
+        margin-left: 66px;
+        border-radius: 4px;
+        background: lightgray 50% / cover no-repeat;
+    }
+
+    .order-pic-dec {
+        border-radius: 4px;
+        background: lightgray 50% / cover no-repeat;
+    }
+
+    /* FORM STYLES */
+    .order-form {
+        max-width: 508px;
+    }
+
+    .order-btn {
+        padding: 14px 39px;
+        min-height: 50px;
+        max-width: 168px;
+        font-size: 16px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+}
+
+/* ================= /END 768px BREAKPOINT=============================== */
