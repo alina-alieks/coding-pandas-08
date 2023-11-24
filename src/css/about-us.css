@@ -1,0 +1,151 @@
+.about-us-paragraph {
+    line-height: normal;
+    letter-spacing: -0.04em;
+}
+
+.about-us-section {
+    background-image: url("../img/about-us-img/background-about-us/about-us-background-mob.png");
+    background-repeat: no-repeat;
+    background-position: right bottom 18px;
+    background-origin: padding-box;
+    
+}
+
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+.about-us-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../img/about-us-img/background-about-us/about-us-background-mob@2x.png");
+  }
+}
+
+
+.about-us-paragraph-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .section {
+        padding-bottom: 100px;
+    }
+    .section-title {
+        font-size: 44px;
+        line-height: 1.145;
+    }
+    .about-us-section {
+        background-image: url("../img/about-us-img/background-about-us/about-us-background-tab.png");
+        background-position: right bottom 50px;
+        max-width: 1279px;
+    }
+
+    @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .about-us-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../img/about-us-img/background-about-us/about-us-background-tab@2x.png");
+    }
+  }
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .section {
+        padding-bottom: 150px;
+    }
+
+    .about-us-section {
+        background-image: url("../img/about-us-img/background-about-us/about-us-background-desk1280.png");
+        background-position: right bottom 70px;
+        max-width: 1439px;
+    }
+
+
+    @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .about-us-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../img/about-us-img/background-about-us/about-us-background-desk1280@2x.png");
+    }
+  }
+
+  .about-us-div {
+    display: flex;
+    gap: 50px;
+  }
+
+  .about-us-title-paragraph-div {
+    max-width: 436px;
+    padding-top: 46px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+
+    .about-us-section {
+        background-image: url("../img/about-us-img/background-about-us/about-us-background-desk1440.png");
+        background-position: right -5px bottom 70px;
+        min-width: 1440px;
+    }
+
+    @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .about-us-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../img/about-us-img/background-about-us/about-us-background-desk1440@2x.png");
+    }
+  }
+
+  .about-us-title-paragraph-div {
+    max-width: 481px;
+    padding-top: 78px;
+  }
+}
