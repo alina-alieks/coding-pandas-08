@@ -76,9 +76,9 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
             padding-bottom: 40px;
         }
         .footer-nav {
+            max-width: 478px;
             height: 100%;
             margin-bottom: 80px;
-            flex-wrap: nowrap;
             flex-direction: row;
             gap: 25px;
         }
@@ -90,7 +90,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         .footer-text {
             font-size: 54px;
             line-height: 1.185;
-            width: 581px;
+            width: 521px;
         }
 }
 
@@ -112,6 +112,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 
     .footer-nav {
         margin-bottom: 117px;
+        max-width: 844px;
     }
 
     .footer-text {
@@ -136,5 +137,4 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
             background-image: url('../img/footer/footer-back-desk1440@2x.png');
         }
     }
-
 }
