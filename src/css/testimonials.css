@@ -1,12 +1,7 @@
 
 /*===========Розміри секцій===========*/
-.testi{
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
 .section-title {
     margin-bottom: 64px;
-    font-weight: 500;
 }
 /*===========Розміри секцій===========*/
 
@@ -29,6 +24,8 @@
 .testi-list-item {
     position: relative;
     display: block;
+    border-radius: 4px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
 }
 /*===========Позиціонування фото===========*/
 
@@ -48,10 +45,6 @@ color: rgba(252, 249, 249, 0.40);
     padding-bottom: 18px;
     padding-top: 54px;
 }
-.testi-list-item {
-    border-radius: 4px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-}
 .testi-list-item:nth-child(2),
 .testi-list-item:nth-child(3) {
     display: none;
@@ -60,9 +53,6 @@ color: rgba(252, 249, 249, 0.40);
 
 /*==========Tablet 768px===========*/
 @media screen and (min-width:768px) {
-    .testi{
-        padding: 100px 32px;
-    }
     .testi-list-item:nth-child(2){
         display: block;
     }
@@ -78,9 +68,6 @@ color: rgba(252, 249, 249, 0.40);
 
 /*==========Tablet 1280px===========*/
 @media screen and (min-width:1280px){
-.testi {
-    padding: 150px 100px;
-}
 .testi-list-item:nth-child(3) {
     display: block;
 }
