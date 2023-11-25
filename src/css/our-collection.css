@@ -1,0 +1,214 @@
+/* ===================== OUR COLLECTION SECTION ===================== */
+
+/* ================ COMMON STYLES ================ */
+.collection-flex {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.section-title {
+text-align: center;
+}
+
+.collection-header-item {
+color: #FCF9F9;
+text-overflow: ellipsis;
+font-size: 14px;
+font-weight: 500;
+line-height: 1;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-top: 18px;
+margin-bottom: 8px;
+}
+
+.collection-price {
+color: rgba(252, 249, 249, 0.40);
+font-size: 14px;
+font-weight: 400;
+line-height: 1;
+letter-spacing: 0.05em;
+margin-bottom: 20px;
+}
+/* ================ /COMMON STYLES ================ */
+
+
+
+/* ================ MEDIA SECTION STYLES ================ */
+@media screen and (min-width: 375px) {
+.container {
+width: 375px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.section-title {
+text-align: center;
+}
+
+.our-colection-section { 
+background-image: url("../img/collection/collection-background-mob.png"); 
+background-repeat: no-repeat; 
+background-position: left top 254px; 
+background-origin: padding-box; 
+}
+
+.collection-flex {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.collection-header-item {
+color: #FCF9F9;
+text-overflow: ellipsis;
+font-size: 14px;
+font-weight: 500;
+line-height: 1;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-top: 18px;
+margin-bottom: 8px;
+}
+
+.collection-price {
+color: rgba(252, 249, 249, 0.40);
+font-size: 14px;
+font-weight: 400;
+line-height: 1;
+letter-spacing: 0.05em;
+margin-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.container {
+width: 768px;
+padding-left: 32px;
+padding-right: 32px;
+}
+
+.section {
+padding-bottom: 100px;
+}
+
+.section-title {
+font-size: 44px;
+line-height: 1.145;
+}
+
+.our-colection-section { 
+background-image: url("../img/collection/collection-background-tab.png"); 
+background-repeat: no-repeat; 
+background-position: left top 157px; 
+background-origin: padding-box; 
+}
+
+.collection-flex {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+
+.colection-border {
+width: 342px;
+height: 430px;
+}
+
+.collection-header-item {
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+word-break: break-all;
+width: 342px;
+font-size: 18px;
+}
+
+.collection-price {
+font-size: 18px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.container {
+width: 1280px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.section {
+padding-bottom: 150px;
+}
+
+.our-colection-section { 
+background-image: url("../img/collection/collection-background-desktop.png"); 
+background-size: 195px;
+}
+
+.collection-flex {
+gap: 40px 20px;
+}
+
+.colection-border {
+width: calc((100% - 40px)/3);
+}
+}
+
+@media screen and (min-width: 1440px) {
+.container {
+width: 1440px;
+}
+
+.our-colection-section { 
+background-position: left top 167px;
+}
+
+.colection-border {
+height: 492px;
+width: 347px;
+}
+}
+/* ================ /MEDIA SECTION STYLES ================ */
+
+
+
+/* ================ BACKGROUND MEDIA STYLES ================ */
+@media screen and (min-resolution: 192dpi) and (max-width: 767px), 
+screen and (min-resolution: 2dppx) and (max-width: 767px), 
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) { 
+.our-colection-section { 
+background-image: url("../img/collection/collection-background-mob@2x.png"); 
+} 
+} 
+
+
+@media screen and (min-resolution: 768dpi) and (max-width: 1279px), 
+screen and (min-resolution: 2dppx) and (max-width: 1279px), 
+screen and (min-device-pixel-ratio: 2) and (max-width: 1279px) { 
+.our-colection-section { 
+background-image: url("../img/collection/collection-background-tab@2x.png"); 
+} 
+} 
+
+@media screen and (min-resolution: 1280dpi) and (max-width: 1439px), 
+screen and (min-resolution: 2dppx) and (max-width: 1439px), 
+screen and (min-device-pixel-ratio: 2) and (max-width: 1439px) { 
+.our-colection-section { 
+background-image: url("../img/collection/collection-background-desktop@2x.png"); 
+} 
+}
+
+@media screen and (min-resolution: 1439dpi) and (max-width: auto), 
+screen and (min-resolution: 2dppx) and (max-width: auto), 
+screen and (min-device-pixel-ratio: 2) and (max-width: auto) { 
+.our-colection-section { 
+background-image: url("../img/collection/collection-background-desktop@2x.png"); 
+} 
+}
+/* ================ /BACKGROUND MEDIA STYLES ================ */
+
+
+/* ===================== /OUR COLLECTION SECTION ===================== */
