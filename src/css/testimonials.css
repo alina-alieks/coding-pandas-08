@@ -1,11 +1,6 @@
-
-/*===========Розміри секцій===========*/
 .section-title {
     margin-bottom: 64px;
 }
-/*===========Розміри секцій===========*/
-
-/*===========Позиціонування фото===========*/
 .testi-list-item-photo{
     position:absolute;
     top: 0;
@@ -27,18 +22,12 @@
     border-radius: 4px;
     border: 1px solid rgba(252, 249, 249, 0.10);
 }
-/*===========Позиціонування фото===========*/
-
-/*===========Стилі шрифтів===========*/
 .testi-list-item-text{
 text-align: center;
 font-size: 14px;
 line-height: normal;
 color: rgba(252, 249, 249, 0.40);
 }
-/*===========Стилі шрифтів===========*/
-
-/*==========Стилі ліжок===========*/
 .testi-list-item-details{
     padding-left: 18px;
     padding-right: 18px;
@@ -49,8 +38,6 @@ color: rgba(252, 249, 249, 0.40);
 .testi-list-item:nth-child(3) {
     display: none;
 }
-/*==========Стилі ліжок===========*/
-
 /*==========Tablet 768px===========*/
 @media screen and (min-width:768px) {
     .testi-list-item:nth-child(2){
