@@ -31,7 +31,6 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 }
 
 .footer-item-link {
-    /* display: block; */
     padding-top: 15px;
     padding-bottom: 10px;
     color: #FCF9F9;
