@@ -23,11 +23,11 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     margin-bottom: 40px;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
     gap: 25px;
     column-gap: 40px;
-}
-.footer-nav-item {
-    width: calc((100% - 25px) / 2);
 }
 
 .footer-item-link {
