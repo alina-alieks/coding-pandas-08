@@ -3,8 +3,6 @@
     padding-top: 80px;
     padding-bottom: 0px;
 }
-
-
 .order-pic {
     display: none;
 }
@@ -14,6 +12,7 @@
     flex-direction: column;
     gap: 40px;
 }
+
 .your-order-title {
     color: #FCF9F9;
     font-family: Manrope;
@@ -22,6 +21,7 @@
     line-height: 1.375;
     letter-spacing: -0.03em;
 }
+
 .order-title-decor {
     color: #ECD979;
 }
@@ -80,6 +80,7 @@ textarea::placeholder{
     letter-spacing: -0.02em;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .order-btn {
     display: flex;
     padding: 14px 36px;
@@ -107,11 +108,7 @@ textarea::placeholder{
     outline-color: transparent;
     outline-offset: 4px;
 }
-
-
-
 /* ================= 768px BREAKPOINT=============================== */
-
 
 @media screen and (min-width: 768px) {
     .style-section {
@@ -128,6 +125,7 @@ textarea::placeholder{
         flex-direction: column-reverse;
         gap: 100px;
     }
+
     .your-order-title{
         max-width: 542px;
         font-size: 44px;
@@ -159,8 +157,8 @@ textarea::placeholder{
         margin: 0;
         margin-top: 20px;
     }
-
 }
+
 @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
     .style-section {
         background: url(../img/your-order/order-back-tab@2x.png);
@@ -170,8 +168,6 @@ textarea::placeholder{
         background-size: 323px 484px;
     }
 }
-
-
 /* ================= /END 768px BREAKPOINT=============================== */
 /* ====================================================================== */
 /* ===================== 1280px BREAKPOINT=============================== */
@@ -229,7 +225,6 @@ textarea::placeholder{
     }
     
 }
-
 /* =====================/END 1280px BREAKPOINT============================ */
 /* ======================================================================= */
 /*========================== 1440px BREAKPOINT ============================*/
@@ -251,7 +246,5 @@ textarea::placeholder{
         font-size: 44px;
         line-height: 1.32;
     }
-
-
 }
 /*========================== /END 1440px BREAKPOINT =======================*/
