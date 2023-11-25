@@ -37,6 +37,7 @@ input::placeholder {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-input {
@@ -51,7 +52,7 @@ input::placeholder {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.02em;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 textarea::placeholder{
@@ -59,6 +60,7 @@ textarea::placeholder{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-comment {
@@ -76,7 +78,7 @@ textarea::placeholder{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.02em;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-btn {
     display: flex;
@@ -96,6 +98,14 @@ textarea::placeholder{
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline-color: transparent;
+    outline-offset: 4px;
+}
+
+.order-btn:hover, .order-input:focus {
+    border-color: #ECD979;
+    outline-color: transparent;
+    outline-offset: 4px;
 }
 
 
@@ -163,3 +173,85 @@ textarea::placeholder{
 
 
 /* ================= /END 768px BREAKPOINT=============================== */
+/* ====================================================================== */
+/* ===================== 1280px BREAKPOINT=============================== */
+
+@media screen and (min-width: 1280px) {
+    .style-section {
+        padding-top: 150px;
+        padding-bottom: 0;
+    }
+
+    .your-order-cont {
+        padding-left: 64px;
+    }
+
+    .your-order-cont {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .order-pic {
+        display: block;
+        max-width: 524px;
+        max-height: 521px;
+        border-radius: 4px;
+        background: none;
+        margin-left: 0;
+        
+    }
+
+    .order-comment {
+        height: 196px;
+        font-size: 16px;
+    }
+
+    input::placeholder {
+        font-size: 16px;
+    }
+    
+    .order-input {
+        font-size: 16px;
+    }
+
+    .order-input:focus, .order-input:active  {
+        border: 1px solid rgba(252, 249, 249, 0.60);
+        color: #FCF9F9;
+    }
+
+    textarea::placeholder{
+        font-size: 16px;
+    }
+
+    textarea:focus, textarea:active{
+        border: 1px solid rgba(252, 249, 249, 0.60);
+        color: #FCF9F9;
+    }
+    
+}
+
+/* =====================/END 1280px BREAKPOINT============================ */
+/* ======================================================================= */
+/*========================== 1440px BREAKPOINT ============================*/
+@media screen and (min-width: 1440px) {
+    .style-section {
+        padding-top: 112px;
+    }
+
+    .your-order-cont {
+        padding-left: 112px;
+    }
+    .title-form {
+        max-width: 666px;
+        width: 100%;
+    }
+
+    .your-order-title{
+        max-width: 666px;
+        font-size: 44px;
+        line-height: 1.32;
+    }
+
+
+}
+/*========================== /END 1440px BREAKPOINT =======================*/
