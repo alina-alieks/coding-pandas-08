@@ -1,0 +1,295 @@
+.order-pic {
+    display: none;
+}
+
+.title-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.your-order-title {
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+}
+
+.order-title-decor {
+    color: #ECD979;
+}
+/* =====================FORM STYLES================= */
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input::placeholder:focus {
+    color: rgba(252, 249, 249, 1);
+}
+
+.order-input {
+    width: 100%;
+    padding: 14px 16px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    outline: transparent;
+    outline-offset: 4px;
+    color: rgba(252, 249, 249, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+textarea::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+textarea::placeholder:focus {
+    color: rgba(252, 249, 249, 1);
+
+}
+
+.order-comment {
+    width: 100%;
+    height: 168px;
+    display: flex;
+    padding: 14px 16px;
+    resize: none;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    outline: transparent;
+    outline-offset: 4px;
+    color: rgba(252, 249, 249, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-btn {
+    display: flex;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 145px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin: 20px auto 0;
+    background-color: transparent;
+    color: #FCF9F9;
+    fill: #ECD979;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline-color: transparent;
+    outline-offset: 4px;
+}
+
+.order-btn:hover, .order-btn:focus {
+    border-color: #ECD979;
+    outline-color: transparent;
+    outline-offset: 4px;
+}
+
+.order-input:focus, .order-input:active  {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+    color: #FCF9F9;
+}
+
+textarea::placeholder{
+    font-size: 16px;
+}
+
+textarea:focus, textarea:active{
+    border: 1px solid rgba(252, 249, 249, 0.60);
+    color: #FCF9F9;
+}
+
+
+/* ================= 768px BREAKPOINT=============================== */
+
+@media screen and (min-width: 768px) {
+    .style-section {
+        background: url(../img/your-order/order-back-tab.png);
+        background-repeat: no-repeat;
+        background-position: left bottom 80px;
+        background-origin: padding-box;
+        padding-bottom: 180px;
+    }
+
+    .your-order-cont {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+
+    .your-order-title{
+        max-width: 542px;
+        font-size: 44px;
+        line-height: 1.32;
+    }
+
+    .order-pic {
+        display: block;
+        margin-left: 66px;
+        border-radius: 4px;
+        background: lightgray 50% / cover no-repeat;
+    }
+
+    .order-pic-dec {
+        border-radius: 4px;
+        background: lightgray 50% / cover no-repeat;
+    }
+
+    /* FORM STYLES */
+    .order-form {
+        max-width: 508px;
+    }
+
+    .order-btn {
+        padding: 14px 39px;
+        min-height: 50px;
+        max-width: 168px;
+        font-size: 16px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
+        .style-section {
+            background: url(../img/your-order/order-back-tab@2x.png);
+            background-repeat: no-repeat;
+            background-position: left bottom 74px;
+            background-origin: padding-box;
+            background-size: 323px 484px;
+        }
+    }
+}
+
+
+/* ================= /END 768px BREAKPOINT=============================== */
+/* ====================================================================== */
+/* ===================== 1280px BREAKPOINT=============================== */
+
+@media screen and (min-width: 1280px) {
+    .style-section {
+        background: url(../img/your-order/order-back-desk1280.png);
+        background-position: left bottom 120px;
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        padding-bottom: 120px;
+    }
+
+    .your-order-cont {
+        padding-left: 64px;
+    }
+
+    .your-order-cont {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .order-pic {
+        display: block;
+        max-width: 524px;
+        max-height: 521px;
+        border-radius: 4px;
+        background: none;
+        margin-left: 0;
+        
+    }
+
+    .order-comment {
+        height: 196px;
+        font-size: 16px;
+    }
+
+    input::placeholder {
+        font-size: 16px;
+    }
+    
+    .order-input {
+        font-size: 16px;
+    }
+
+    .order-input:focus, .order-input:active  {
+        border: 1px solid rgba(252, 249, 249, 0.60);
+        color: #FCF9F9;
+    }
+
+    textarea::placeholder{
+        font-size: 16px;
+    }
+
+    textarea:focus, textarea:active{
+        border: 1px solid rgba(252, 249, 249, 0.60);
+        color: #FCF9F9;
+    }
+    @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
+        .style-section {
+            background: url(../img/your-order/order-back-desk1280@2x.png);
+            background-repeat: no-repeat;
+            background-position: left bottom 50px;
+            background-origin: padding-box;
+            background-size: 289px 484px;
+        }
+    }
+}
+/* =====================/END 1280px BREAKPOINT============================ */
+/* ======================================================================= */
+/*========================== 1440px BREAKPOINT ============================*/
+@media screen and (min-width: 1440px) {
+    .style-section {
+        background: url(../img/your-order/order-back-desk1440.png);
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        background-position: left bottom 120px;
+        padding-bottom: 112px;
+    }
+
+    .your-order-cont {
+        padding-left: 112px;
+    }
+    .title-form {
+        max-width: 666px;
+        width: 100%;
+    }
+
+    .your-order-title{
+        max-width: 666px;
+        font-size: 44px;
+        line-height: 1.32;
+    }
+
+    @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
+        .style-section {
+            background: url(../img/your-order/order-back-desk1440@2x.png);
+            background-repeat: no-repeat;
+            background-position: left bottom 120px;
+            background-origin: padding-box;
+            background-size: 340px 484px;
+        }
+    }
+}
+/*========================== /END 1440px BREAKPOINT =======================*/
