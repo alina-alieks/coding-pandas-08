@@ -20,6 +20,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 .footer-nav {
     display: flex;
     height: 63px;
+    max-width: 280px;
     margin-bottom: 40px;
     flex-wrap: wrap;
     flex-direction: column;
