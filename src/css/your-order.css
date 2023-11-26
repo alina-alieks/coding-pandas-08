@@ -157,17 +157,18 @@ textarea::placeholder{
         margin: 0;
         margin-top: 20px;
     }
-}
-
-@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
-    .style-section {
-        background: url(../img/your-order/order-back-tab@2x.png);
-        background-repeat: no-repeat;
-        background-position: left bottom;
-        background-origin: padding-box;
-        background-size: 323px 484px;
+    @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
+        .style-section {
+            background: url(../img/your-order/order-back-tab@2x.png);
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            background-origin: padding-box;
+            background-size: 323px 484px;
+        }
     }
 }
+
+
 /* ================= /END 768px BREAKPOINT=============================== */
 /* ====================================================================== */
 /* ===================== 1280px BREAKPOINT=============================== */
