@@ -1,3 +1,7 @@
+* {
+    cursor: url('../img/cursor/cursor-custom-2.png 1x, ../img/cursor/cursor-custom2@2x.png 2x'),pointer;
+}
+
 body {
     font-family: Manrope, sans-serif;
     color: rgba(252, 249, 249, 0.50);
