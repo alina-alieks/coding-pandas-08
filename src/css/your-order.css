@@ -1,7 +1,7 @@
 .style-section {
     background-color: #1C2225;
-    /* padding-top: 80px;
-    padding-bottom: 0px; */
+    /* padding-top: 80px; */
+    /* padding-bottom: 0px; */
 }
 .order-pic {
     display: none;
@@ -114,10 +114,10 @@ textarea::placeholder{
     .style-section {
         background: url(../img/your-order/order-back-tab.png);
         background-repeat: no-repeat;
-        background-position: left bottom;
+        background-position: left bottom 80px;
         background-origin: padding-box;
         /* padding-top: 100px; */
-        padding-bottom: 80px;
+        padding-bottom: 180px;
     }
 
     .your-order-cont {
@@ -161,7 +161,7 @@ textarea::placeholder{
         .style-section {
             background: url(../img/your-order/order-back-tab@2x.png);
             background-repeat: no-repeat;
-            background-position: left bottom;
+            background-position: left bottom 80px;
             background-origin: padding-box;
             background-size: 323px 484px;
         }
@@ -174,10 +174,13 @@ textarea::placeholder{
 /* ===================== 1280px BREAKPOINT=============================== */
 
 @media screen and (min-width: 1280px) {
-    /* .style-section {
-        padding-top: 150px;
-        padding-bottom: 0;
-    } */
+    .style-section {
+        background: url(../img/your-order/order-back-desk1280.png);
+        background-position: left bottom 120px;
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        padding-bottom: 120px;
+    }
 
     .your-order-cont {
         padding-left: 64px;
@@ -230,9 +233,10 @@ textarea::placeholder{
 /* ======================================================================= */
 /*========================== 1440px BREAKPOINT ============================*/
 @media screen and (min-width: 1440px) {
-    /* .style-section {
-        padding-top: 112px;
-    } */
+    .style-section {
+        background-position: left bottom 112px;
+        padding-bottom: 112px;
+    }
 
     .your-order-cont {
         padding-left: 112px;
