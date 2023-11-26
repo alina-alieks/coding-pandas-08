@@ -71,8 +71,13 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
     .mob-menu{
         width: 380px;
         min-height: 1024px;
+        padding: 20px 32px;
         background-image: url(../img/mob-menu/mob-menu-tablet.png)
     }
+        .mob-menu-close {
+            top: 20px;
+            right: 32px;
+        }
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 1279px),
 screen and (min-resolution: 2dppx) and (max-width: 1279px),
