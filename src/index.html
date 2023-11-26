@@ -34,5 +34,56 @@
     <load src="partials/mobile-menu.html" />
 
     <script type="module" src="/main.js"></script>
+
+    <!-- section-hero -->
+    <section class="hero-section">
+      <div class="container container-hero">
+        <div class="hero-vyshyvanka">
+          <h1 class="hero-title">Reviving the traditional <span class="title-color">Ukrainian</span> artistry in every stitch. </h1>
+          <div class="btn-blok">
+          <button type="button" class="hero-button">Order</button>
+          <span class="strilka">
+                <svg class="icon-strilka" width="26" height="10">
+                <use href="./img/icons.svg#icon-arrow">
+                </use>
+              </svg>
+          </span>
+        </div>
+          <picture class="picture-girl">
+            <source media="(min-width 1440px)" srcset="./img/hero-img/hero-girl-desktop.jpg 1x, ./img/hero-img/hero-girl-desktop@2x.jpg 2x" 
+                    media="(min-width: 1280px)" srcset="./img/hero-img/hero-girl-desktop.jpg 1x, ./img/hero-img/hero-girl-desktop@2x.jpg 2x "
+                    media="(min-width: 768px)" srcset="./img/hero-img/hero-girl-tab.jpg 1x, ./img/hero-img/hero-girl-tab@2x 2x"
+                    media="(min-width: 320x)" srcset="./img/hero-img/hero-girl-mob.jpg 1x, ./img/hero-img/hero-girl-mob@2x 2x"
+                    type="image/jpg">
+            <img src="./img/hero-img/hero-girl-mob.jpg" alt="Ukrainian-girl" width="335" class="hero-pic" />
+          </picture>
+        </div>
+    <div class="star-map">
+    
+        <div class="star-text">
+          <div class="star">
+                <svg class="icon-star" width="52" height="51">
+                <use href="./img/icons.svg#icon-star">
+                </use>
+              </svg>
+              </div>
+    
+          <div class="text">
+            <p class="star-tittle">
+              all embroidery is made by hand
+            </p>
+          </div>
+          </div>
+        <div class="map-Ukrain">
+        <img srcset="./img/hero-img/hero-map.png 1x, ./img/hero-img/hero-map@2x 2x" 
+        src="./img/hero-img/hero-map.png" 
+        alt="map-of-Ukrain"
+        width="157" />
+        <div>
+</div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
+  

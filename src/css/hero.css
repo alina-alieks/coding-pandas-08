@@ -1,0 +1,201 @@
+/* mobil */
+
+@media screen and (min-width: 375px) {
+    .container {
+     min-width: 375px;
+     } 
+ .hero-title {
+     color: var(--white, #FCF9F9);
+     font-family: Manrope;
+     font-size: 44px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 54px;
+     letter-spacing: -1.32px;
+     min-width: 335px;
+     margin-top: 20px;
+ 
+      
+ }
+ .title-color {
+    color: var(--white, #ECD979);
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -1.32px;
+    }
+  .btn-blok {
+     display: inline-flex;
+     height: 49px;
+     padding: 14px 36px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     flex-shrink: 0;
+     border-radius: 15px;
+     border: 1px solid rgba(252, 249, 249, 0.10);
+     margin-left: 70px;
+     margin-top: 20px;
+  }
+  .hero-button {
+     color: var(--white, #FCF9F9);
+     background-color: #1c2225;
+     font-family: Manrope;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: -0.56px;
+     text-transform: uppercase;
+     padding: 14px, 36px;
+  }
+  
+ .strilka {
+    padding-left: 10px;
+ }
+  .icon-strilka { 
+    fill: var(--yellow, #ECD979);
+    width: 26px;
+    height: 10px;}
+    
+ 
+  .picture-girl {
+     width: 335px;
+     height: 545px;
+     flex-shrink: 0;
+     border-radius: 4px;
+     background: url("../img/hero-img/hero-girl-mob@2x.jpg"), lightgray 50% / cover no-repeat;
+     margin-top: 40px;
+  }
+  .hero-pic {
+     margin-top: 40px;
+  }
+  .star-text {
+     display: none;
+  }
+  .map-Ukrain {
+      display: none;
+  }
+ }
+ 
+ /* tablet */
+ 
+ 
+ @media screen and (min-width: 768px) {
+ 
+    
+    .container-hero {
+    display: flex;
+    flex-wrap: nowrap;
+      
+    }
+ 
+ 
+ .title-color {
+    color: var(--white, #ECD979);
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1.62px;
+ }
+ 
+ .container {
+    min-width: 768px;
+    } 
+ .hero-title {
+    font-size: 54px;
+    line-height: 64px; 
+    letter-spacing: -1.62px;
+    min-width: 549px;
+    margin-left: 32px;
+    margin-right: 40px;
+    margin-top: 106px;
+     
+ }
+ .btn-blok {
+    display: flex;
+    width: 168px;
+    padding: 14px 39px;
+    margin-left: 70px;
+    margin-top: 40px;
+ }
+ .hero-button {
+    color: var(--white, #FCF9F9);
+    background-color: #1c2225;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+ }
+ .strilka {
+    
+    
+    
+ }
+ 
+ .icon-strilka { 
+    fill: var(--yellow, #ECD979);
+    width: 26px;
+    height: 10px;
+ }
+ 
+ .picture-girl {
+    width: 335px;
+    height: 545px;
+    flex-shrink: 0; 
+    border-radius: 4px;
+    background: url("../img/hero-img/hero-girl-tab@2x.jpg"), lightgray 50% / cover no-repeat; 
+    
+    
+    
+ }
+ .hero-pic {
+    margin-top: 40px;
+ }
+ .star-text {
+    display: inline-flex;
+    gap: 16px;
+    align-content: flex-start;
+    margin-right: 32px;
+    margin-top: 80px;
+    margin-bottom: 679px;
+    align-items: center; 
+    flex-wrap: nowrap;
+    flex-direction: column;
+ }
+ 
+ .star {
+    width: 52px;   
+    height: 51px;
+    fill: var(--yellow, #ECD979);
+    margin-bottom: 16px;
+ }
+ .text {
+    color: rgba(252, 249, 249, 0.40);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+ }
+ .map-Ukrain {
+    display: flex;
+    width: 157px;
+    height: 191px;
+    flex-shrink: 0;
+    background: url("../img/hero-img/hero-map@2x.png"), lightgray -2.282px -3.431px / 105.126% 103.318%;
+    background-repeat: no-repeat;
+    margin-left: 143px;
+    margin-right: 23px;
+    fill: #C4C4C4;
+ }
+ }
