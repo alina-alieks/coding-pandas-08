@@ -34,6 +34,9 @@
   .about-us-title-paragraph-div {
     margin-bottom: 40px;
   }
+  .about-us-paragraph {
+    font-size: 16px;
+  }
   .about-us-section {
     background-image: url('../img/about-us-img/background-about-us/about-us-background-tab.png');
     background-position: right bottom 50px;
