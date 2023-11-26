@@ -1,0 +1,102 @@
+.about-us-section {
+  background-image: url('../img/about-us-img/background-about-us/about-us-background-mob.png');
+  background-repeat: no-repeat;
+  background-position: right bottom 18px;
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .about-us-section {
+    background-image: url('../img/about-us-img/background-about-us/about-us-background-mob@2x.png');
+    background-size: 250px;
+  }
+}
+
+.about-us-paragraph-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-paragraph {
+  line-height: normal;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+}
+
+.about-us-title-paragraph-div {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-title-paragraph-div {
+    margin-bottom: 40px;
+  }
+  .about-us-paragraph {
+    font-size: 16px;
+  }
+  .about-us-section {
+    background-image: url('../img/about-us-img/background-about-us/about-us-background-tab.png');
+    background-position: right bottom 50px;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .about-us-section {
+      background-image: url('../img/about-us-img/background-about-us/about-us-background-tab@2x.png');
+      background-size: 369px;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-section {
+    background-image: url('../img/about-us-img/background-about-us/about-us-background-desk1280.png');
+    background-position: right bottom 70px;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .about-us-section {
+      background-image: url('../img/about-us-img/background-about-us/about-us-background-desk1280@2x.png');
+      background-size: 385px;
+    }
+  }
+
+  .about-us-div {
+    display: flex;
+    gap: 50px;
+  }
+
+  .about-us-title-paragraph-div {
+    max-width: 436px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-section {
+    background-image: url('../img/about-us-img/background-about-us/about-us-background-desk1440.png');
+    background-position: right bottom 70px;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .about-us-section {
+      background-image: url('../img/about-us-img/background-about-us/about-us-background-desk1440@2x.png');
+      background-size: 545px;
+    }
+  }
+
+  .about-us-title-paragraph-div {
+    max-width: 481px;
+    padding-top: 78px;
+  }
+}
