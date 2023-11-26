@@ -37,7 +37,11 @@ input::placeholder {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.02em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input::placeholder:focus {
+    color: rgba(252, 249, 249, 1);
 }
 
 .order-input {
@@ -52,15 +56,20 @@ input::placeholder {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.02em;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-textarea::placeholder{
+textarea::placeholder {
     color: rgba(252, 249, 249, 0.50);
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.02em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+textarea::placeholder:focus {
+    color: rgba(252, 249, 249, 1);
+
 }
 
 .order-comment {
@@ -103,11 +112,27 @@ textarea::placeholder{
     outline-offset: 4px;
 }
 
-.order-btn:hover, .order-input:focus {
+.order-btn:hover, .order-btn:focus {
     border-color: #ECD979;
     outline-color: transparent;
     outline-offset: 4px;
 }
+
+.order-input:focus, .order-input:active  {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+    color: #FCF9F9;
+}
+
+textarea::placeholder{
+    font-size: 16px;
+}
+
+textarea:focus, textarea:active{
+    border: 1px solid rgba(252, 249, 249, 0.60);
+    color: #FCF9F9;
+}
+
+
 /* ================= 768px BREAKPOINT=============================== */
 
 @media screen and (min-width: 768px) {
