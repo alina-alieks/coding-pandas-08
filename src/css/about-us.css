@@ -81,7 +81,6 @@
   .about-us-section {
     background-image: url('../img/about-us-img/background-about-us/about-us-background-desk1440.png');
     background-position: right bottom 70px;
-    min-width: 1440px;
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
