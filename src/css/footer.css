@@ -1,4 +1,3 @@
-/* ================= Mobile style ================ */
 .footer {
     background-image: url('../img/footer/footer-back-mob.png');
     background-repeat: no-repeat;
@@ -139,3 +138,4 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         }
     }
 }
+

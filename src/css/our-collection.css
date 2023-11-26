@@ -1,0 +1,153 @@
+/* ===================== OUR COLLECTION SECTION ===================== */
+
+/* ================ MOBILE STYLE ================ */
+.collection-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-title {
+  text-align: center;
+}
+.our-colect-text {
+  margin-top: 18px;
+}
+
+.collection-header-item {
+  color: #fcf9f9;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.collection-price {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+}
+
+.our-colection-section {
+  background-image: url('../img/collection/collection-background-mob.png');
+  background-repeat: no-repeat;
+  background-position: left top 298px;
+  background-size: 72px;
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .our-colection-section {
+    background-image: url('../img/collection/collection-background-mob@2x.png');
+  }
+}
+/* ================ /MOBILE STYLE ================ */
+
+/* ================ TABLET STYLES ================ */
+@media screen and (min-width: 768px) {
+  .our-colection-section {
+    background-image: url('../img/collection/collection-background-tab.png');
+    background-position: left top 221px;
+    background-size: 114px;
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .our-colection-section {
+      background-image: url('../img/collection/collection-background-tab@2x.png');
+    }
+  }
+
+  .collection-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .colection-border {
+    width: calc((100% - 20px) / 2);
+  }
+
+  .img-hov {
+    cursor: pointer;
+    transition: border 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .img-hov:hover,
+  .img-hov:focus {
+    border: 2px solid #ecd979;
+    border-radius: 8px;
+  }
+
+  .our-colect-text {
+    cursor: pointer;
+  }
+
+  .collection-header-item {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    width: 342px;
+    font-size: 18px;
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .collection-price {
+    font-size: 18px;
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .collection-header-item:hover,
+  .collection-header-item:focus,
+  .collection-price:hover,
+  .collection-price:focus {
+    color: #ecd979;
+  }
+}
+/* ================ /TABLET STYLES ================ */
+
+/* ================ DESKTOP 1280 STYLES ================ */
+@media screen and (min-width: 1280px) {
+  .our-colection-section {
+    background-image: url('../img/collection/collection-background-desktop.png');
+    background-size: 169px;
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .our-colection-section {
+      background-image: url('../img/collection/collection-background-desktop@2x.png');
+    }
+  }
+
+  .collection-flex {
+    gap: 40px 19px;
+  }
+
+  .colection-border {
+    width: calc((100% - 19px * 2) / 3);
+  }
+}
+/* ================ /DESKTOP 1280 STYLES ================ */
+
+/* ================ DESKTOP 1440 STYLES ================ */
+@media screen and (min-width: 1440px) {
+  .our-colection-section {
+    background-position: left top 231px;
+  }
+  .colection-border {
+    width: 400px;
+    height: 492px;
+  }
+}
+/* ================ /DESKTOP 1440 STYLES ================ */
+/* ===================== /OUR COLLECTION SECTION ===================== */
