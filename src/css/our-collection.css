@@ -85,6 +85,12 @@
     height: 430px;
   }
 
+  /* .colection-border:hover,
+  .colection-border:focus {
+    color: yellow;
+    border: 1px solid yellow;
+  } */
+
   .collection-header-item {
     overflow: hidden;
     display: -webkit-box;
@@ -121,6 +127,10 @@
   @media screen and (min-width: 1440px) {
     .our-colection-section {
       background-position: left top 167px;
+    }
+    .colection-border {
+      width: 400px;
+      height: 492px;
     }
   }
   /* ================ /MEDIA SECTION STYLES ================ */
