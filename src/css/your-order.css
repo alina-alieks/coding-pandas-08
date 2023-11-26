@@ -136,7 +136,6 @@ textarea:focus, textarea:active{
         background-repeat: no-repeat;
         background-position: left bottom 80px;
         background-origin: padding-box;
-        /* padding-top: 100px; */
         padding-bottom: 180px;
     }
 
