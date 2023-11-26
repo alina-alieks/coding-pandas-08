@@ -186,7 +186,7 @@ textarea:focus, textarea:active{
         .style-section {
             background: url(../img/your-order/order-back-tab@2x.png);
             background-repeat: no-repeat;
-            background-position: left bottom 80px;
+            background-position: left bottom 74px;
             background-origin: padding-box;
             background-size: 323px 484px;
         }
@@ -252,14 +252,25 @@ textarea:focus, textarea:active{
         border: 1px solid rgba(252, 249, 249, 0.60);
         color: #FCF9F9;
     }
-    
+    @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
+        .style-section {
+            background: url(../img/your-order/order-back-desk1280@2x.png);
+            background-repeat: no-repeat;
+            background-position: left bottom 50px;
+            background-origin: padding-box;
+            background-size: 289px 484px;
+        }
+    }
 }
 /* =====================/END 1280px BREAKPOINT============================ */
 /* ======================================================================= */
 /*========================== 1440px BREAKPOINT ============================*/
 @media screen and (min-width: 1440px) {
     .style-section {
-        background-position: left bottom 112px;
+        background: url(../img/your-order/order-back-desk1440.png);
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        background-position: left bottom 120px;
         padding-bottom: 112px;
     }
 
@@ -275,6 +286,16 @@ textarea:focus, textarea:active{
         max-width: 666px;
         font-size: 44px;
         line-height: 1.32;
+    }
+
+    @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
+        .style-section {
+            background: url(../img/your-order/order-back-desk1440@2x.png);
+            background-repeat: no-repeat;
+            background-position: left bottom 120px;
+            background-origin: padding-box;
+            background-size: 340px 484px;
+        }
     }
 }
 /*========================== /END 1440px BREAKPOINT =======================*/
