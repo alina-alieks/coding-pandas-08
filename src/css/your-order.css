@@ -1,7 +1,7 @@
 .style-section {
     background-color: #1C2225;
-    padding-top: 80px;
-    padding-bottom: 0px;
+    /* padding-top: 80px;
+    padding-bottom: 0px; */
 }
 .order-pic {
     display: none;
@@ -116,7 +116,7 @@ textarea::placeholder{
         background-repeat: no-repeat;
         background-position: left bottom;
         background-origin: padding-box;
-        padding-top: 100px;
+        /* padding-top: 100px; */
         padding-bottom: 80px;
     }
 
@@ -173,10 +173,10 @@ textarea::placeholder{
 /* ===================== 1280px BREAKPOINT=============================== */
 
 @media screen and (min-width: 1280px) {
-    .style-section {
+    /* .style-section {
         padding-top: 150px;
         padding-bottom: 0;
-    }
+    } */
 
     .your-order-cont {
         padding-left: 64px;
@@ -229,9 +229,9 @@ textarea::placeholder{
 /* ======================================================================= */
 /*========================== 1440px BREAKPOINT ============================*/
 @media screen and (min-width: 1440px) {
-    .style-section {
+    /* .style-section {
         padding-top: 112px;
-    }
+    } */
 
     .your-order-cont {
         padding-left: 112px;
