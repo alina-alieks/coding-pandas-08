@@ -12,7 +12,7 @@ html {
     height: 100%;
     width: 274px;
     background-color: #ECD979;
-    background-image: url(./img/mob-menu/mob-menu-mob.png);
+    background-image: url('./img/mob-menu/mob-menu-mob.png');
     background-repeat: no-repeat;
     background-position:bottom;
     background-size:contain;
@@ -66,7 +66,7 @@ html {
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
     .mob-menu{
-        background-image: url(./img/mob-menu/mob-menu-mob@2x.png);
+        background-image: url('./img/mob-menu/mob-menu-mob@2x.png');
     }
 }
 /* ================TABLET MENU============== */
@@ -75,7 +75,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
         width: 380px;
         min-height: 1024px;
         padding: 20px 32px;
-        background-image: url(./img/mob-menu/mob-menu-tablet.png)
+        background-image: url('./img/mob-menu/mob-menu-tablet.png')
     }
     .mob-nav-item{
         margin-bottom: 25px;
@@ -89,7 +89,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
 screen and (min-resolution: 2dppx) and (max-width: 1279px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 1279px) {
     .mob-menu {
-        background-image: url(./img/mob-menu/mob-menu-tablet@2x.png);
+        background-image: url('./img/mob-menu/mob-menu-tablet@2x.png');
     }
 }
 @media screen and (min-width: 1280px){
