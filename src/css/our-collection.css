@@ -40,6 +40,14 @@
   background-position: left top 298px;
   background-size: 72px;
 }
+
+.background-girl {
+  background-image: url('../img/collection/collection-girl-mob.jpg');
+  background-repeat: no-repeat;
+  background-position: left top 298px;
+  background-size: 72px;
+}
+
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
