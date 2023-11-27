@@ -40,11 +40,29 @@
   background-position: left top 298px;
   background-size: 72px;
 }
+
+.background-image {
+  background-image: url('../img/collection/collection-girl-mob.jpg');
+  height: 550px;
+  margin-top: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .our-colection-section {
     background-image: url('../img/collection/collection-background-mob@2x.png');
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .background-image {
+    background-image: url('../img/collection/collection-girl-mob@2x.jpg');
   }
 }
 /* ================ /MOBILE STYLE ================ */
@@ -61,6 +79,20 @@
     screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .our-colection-section {
       background-image: url('../img/collection/collection-background-tab@2x.png');
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .background-image {
+      background-image: url('../img/collection/collection-girl-tab.jpg');
+      height: 776px;
+    }
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .background-image {
+      background-image: url('../img/collection/collection-girl-tab@2x.jpg');
     }
   }
 
@@ -112,6 +144,10 @@
   .collection-price:focus {
     color: #ecd979;
   }
+
+  .background-image {
+    margin-top: 100px;
+  }
 }
 /* ================ /TABLET STYLES ================ */
 
@@ -129,12 +165,29 @@
     }
   }
 
+  @media screen and (min-width: 1280px) {
+    .background-image {
+      background-image: url('../img/collection/collection-girl-desk1280.jpg');
+    }
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .background-image {
+      background-image: url('../img/collection/collection-girl-desk1280@2x.jpg');
+    }
+  }
+
   .collection-flex {
     gap: 40px 19px;
   }
 
   .colection-border {
     width: calc((100% - 19px * 2) / 3);
+  }
+
+  .background-image {
+    margin-top: 150px;
   }
 }
 /* ================ /DESKTOP 1280 STYLES ================ */
@@ -144,6 +197,21 @@
   .our-colection-section {
     background-position: left top 231px;
   }
+
+  @media screen and (min-width: 1440px) {
+    .background-image {
+      background-image: url('../img/collection/collection-girl-desk1440.jpg');
+    }
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .background-image {
+      background-image: url('../img/collection/collection-girl-desk1440@2x.jpg');
+    }
+  }
+
   .colection-border {
     width: 400px;
     height: 492px;
