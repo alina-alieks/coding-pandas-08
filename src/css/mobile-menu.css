@@ -17,13 +17,13 @@ html {
     background-position:bottom;
     background-size:contain;
     padding: 20px;
-    transition: transform 250ms linear;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-contact-phone{
     display: inline-block;
     padding: 12px 20px;
     font-size: 12px;
-    line-height: 1.16em;
+    line-height: 1.17;
     height: 38px;
     color: #1C2225;
     border-radius: 15px;
@@ -47,13 +47,16 @@ html {
 }
 .mob-nav-item{
     font-size: 14px;
-    align-items: 1.29;
+    line-height: 1.29;
     text-transform: uppercase;
     color: #1C2225;
     padding-bottom: 20px;
 }
 .mob-nav-item:last-child {
     padding-bottom: 0;
+}
+.mob-nav-item-link{
+    padding: 10px 0;
 }
 .is-open{
     transform: translateX(101%);
@@ -74,10 +77,13 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
         padding: 20px 32px;
         background-image: url(../img/mob-menu/mob-menu-tablet.png)
     }
-        .mob-menu-close {
-            top: 20px;
-            right: 32px;
-        }
+    .mob-nav-item{
+        padding-bottom: 25px;
+    }
+    .mob-menu-close {
+        top: 20px;
+        right: 32px;
+    }
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 1279px),
 screen and (min-resolution: 2dppx) and (max-width: 1279px),
