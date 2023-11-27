@@ -4,6 +4,8 @@
     .container {
      min-width: 375px;
      } 
+
+     
  .hero-title {
      color: var(--white, #FCF9F9);
      font-family: Manrope;
@@ -60,8 +62,9 @@
     width: 26px;
     height: 10px;}
     
- 
-  .picture-girl {
+  
+  
+  .pic-hero {
      width: 335px;
      height: 545px;
      flex-shrink: 0;
@@ -69,16 +72,11 @@
      background: url("../img/hero-img/hero-girl-mob@2x.jpg"), lightgray 50% / cover no-repeat;
      margin-top: 40px;
   }
-  .hero-pic {
-     margin-top: 40px;
-  }
-  .star-text {
-     display: none;
-  }
-  .map-Ukrain {
-      display: none;
-  }
+    
  }
+ 
+
+
  
  /* tablet */
  
@@ -134,11 +132,7 @@
     letter-spacing: -0.56px;
     text-transform: uppercase;
  }
- .strilka {
-    
-    
-    
- }
+ 
  
  .icon-strilka { 
     fill: var(--yellow, #ECD979);
@@ -146,18 +140,13 @@
     height: 10px;
  }
  
- .picture-girl {
-    width: 335px;
+ .pic-hero {
+   margin-top: 40px;
+   width: 335px;
     height: 545px;
     flex-shrink: 0; 
     border-radius: 4px;
     background: url("../img/hero-img/hero-girl-tab@2x.jpg"), lightgray 50% / cover no-repeat; 
-    
-    
-    
- }
- .hero-pic {
-    margin-top: 40px;
  }
  .star-text {
     display: inline-flex;
@@ -178,6 +167,7 @@
     margin-bottom: 16px;
  }
  .text {
+    width: 115px;
     color: rgba(252, 249, 249, 0.40);
     text-align: center;
     font-family: Manrope;
@@ -189,13 +179,174 @@
  }
  .map-Ukrain {
     display: flex;
-    width: 157px;
-    height: 191px;
+    width: 139px;
+    height: 197px;
     flex-shrink: 0;
-    background: url("../img/hero-img/hero-map@2x.png"), lightgray -2.282px -3.431px / 105.126% 103.318%;
-    background-repeat: no-repeat;
-    margin-left: 143px;
+    background: url("../img/hero-img/hero-map.png") lightgray -2.282px -3.431px / 105.126% 103.318% no-repeat;
     margin-right: 23px;
     fill: #C4C4C4;
  }
+
+ .icon-map {
+   background-color: #1c2225;
  }
+ }
+
+
+ @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+ screen and (min-resolution: 2dppx) and (min-width: 768px),
+ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    
+ .map-Ukrain {
+  background-image: url("../img/hero-img/hero-map@2x.png");
+ }
+}
+
+/* desktop-1280 */
+ 
+ 
+@media screen and (min-width: 1280px) {
+ 
+      .container-hero {
+   display: flex;
+   flex-wrap: nowrap;
+     
+   }
+
+   .blok-title-btn {
+      margin: bottom 50px;
+      display: flex;
+      flex-direction: column;
+      }
+   }
+
+   .hero-vyshyvanka {
+
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row-reverse;
+
+}
+
+.title-color {
+   
+color: var(--white, #ECD979);
+font-family: Manrope;
+font-size: 54px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: -1.62px;
+}
+
+.container {
+   min-width: 1280px;
+   } 
+.hero-title {
+   
+   color: var(--white, #FCF9F9);
+   font-family: Manrope;
+   font-size: 54px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 64px; 
+   letter-spacing: -1.62px;
+   min-width: 518px;
+   
+    
+}
+.btn-blok {
+   display: flex;
+   width: 168px;
+   padding: 14px 39px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 15px;
+   border: 1px solid rgba(252, 249, 249, 0.10);
+}
+.hero-button {
+   color: var(--white, #FCF9F9);
+   font-family: Manrope;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   letter-spacing: -0.64px;
+   text-transform: uppercase;
+}
+
+
+.icon-strilka { 
+   width: 26px;
+   height: 10px;
+   transform: rotate(-30deg);
+   flex-shrink: 0;
+   fill: var(--yellow, #ECD979);
+}
+
+
+.pic-hero {
+   margin-top: 100px;
+   width: 392px;
+   height: 545px;
+   flex-shrink: 0;
+   border-radius: 4px;
+   background: url("../img/hero-img/hero-girl-tab@2x.jpg"), lightgray -56.27px -5.605px / 131.835% 126.432% no-repeat;  
+   margin-left: 100px;
+   
+}
+
+.star-text {
+   display: inline-flex;
+   gap: 16px;
+   align-content: flex-start;
+   margin-left: 15px;
+   margin-right: 100px;
+   margin-top: 114px;
+   margin-bottom: 316.96px;
+   align-items: center;
+   flex-wrap: nowrap;
+   flex-direction: column;
+}
+
+.star {
+   width: 52px;   
+   height: 51px;
+   fill: var(--yellow, #ECD979);
+   margin-bottom: 16px;
+}
+.text {
+   width: 115px;
+   color: rgba(252, 249, 249, 0.40);
+   text-align: center;
+   font-family: Manrope;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: -0.64px;
+}
+.map-Ukrain {
+   display: flex;
+   width: 139px;
+   height: 197px;
+   flex-shrink: 0;
+   background: url("../img/hero-img/hero-map.png") lightgray -2.282px -3.431px / 105.126% 103.318% no-repeat;
+   margin-right: 96.84px; 
+   fill: #C4C4C4;
+}
+
+.icon-map {
+  background-color: #1c2225;
+}
+
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+   
+.map-Ukrain {
+ background-image: url("../img/hero-img/hero-map@2x.png");
+}
+}
