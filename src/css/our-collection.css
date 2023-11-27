@@ -41,6 +41,7 @@
   background-size: 72px;
 }
 
+<<<<<<< HEAD
 .background-image {
   background-image: url('../img/collection/collection-girl-mob.jpg');
   height: 550px;
@@ -48,6 +49,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+=======
+.background-girl {
+  background-image: url('../img/collection/collection-girl-mob.jpg');
+  background-repeat: no-repeat;
+  background-position: left top 298px;
+  background-size: 72px;
+>>>>>>> cac29303e2779a9c27ec7102e6e563046a75376d
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
