@@ -1,0 +1,101 @@
+/* ============SMOOTH SCROLL====== */
+html {
+    scroll-behavior: smooth;
+}
+/* ============MOB MENU================ */
+@media screen and (max-width: 1279px) {
+.mob-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-height: 812px;
+    height: 100%;
+    width: 274px;
+    background-color: #ECD979;
+    background-image: url(../img/mob-menu/mob-menu-mob.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:contain;
+    padding: 20px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mob-contact-phone{
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 12px;
+    line-height: 1.17;
+    height: 38px;
+    color: #1C2225;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.10);
+}
+.mob-menu-close{
+    position: absolute;
+    top: 21px;
+    right: 20px;
+    padding: 0;
+    background-color: transparent;
+    width: 36px;
+    height: 36px;
+}
+.mob-menu-close-icon{
+    stroke: #1C2225;
+}
+.mob-nav-block{
+    text-align: right;
+    margin-top: 186px;
+}
+.mob-nav-item{
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    color: #1C2225;
+    margin-bottom: 20px;
+}
+.mob-nav-item:last-child {
+    margin-bottom: 0;
+}
+.mob-nav-item-link{
+    padding: 10px 0;
+}
+.is-open{
+    transform: translateX(101%);
+}
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
+    .mob-menu{
+        background-image: url(../img/mob-menu/mob-menu-mob@2x.png);
+    }
+}
+/* ================TABLET MENU============== */
+@media screen and (min-width: 768px){
+    .mob-menu{
+        width: 380px;
+        min-height: 1024px;
+        padding: 20px 32px;
+        background-image: url(../img/mob-menu/mob-menu-tablet.png)
+    }
+    .mob-nav-item{
+        margin-bottom: 25px;
+    }
+    .mob-menu-close {
+        top: 20px;
+        right: 32px;
+    }
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 1279px),
+screen and (min-resolution: 2dppx) and (max-width: 1279px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 1279px) {
+    .mob-menu {
+        background-image: url(../img/mob-menu/mob-menu-tablet@2x.png);
+    }
+}
+@media screen and (min-width: 1280px){
+.is-open,
+.mob-menu{
+    display: none;
+}
+}
+    
