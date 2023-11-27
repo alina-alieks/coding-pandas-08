@@ -1,12 +1,10 @@
-/* ======================== HERO ====================== */
-
 .hero{
     padding-top: 60px;
 }
 .hero-title{
         font-size: 44px;
         font-weight: 400;
-        line-height: 1.23; 
+        line-height: 1.23; /* 122.727% */
         letter-spacing: -0.03em;
         color: #FCF9F9;
         margin-bottom: 20px;
@@ -85,7 +83,7 @@ width: 155px;
         margin-bottom: 40px;
         width: 549px;
         font-size: 54px;
-        line-height: 1.19;
+        line-height: 1.19;/* 118.519% */
     }
     .link-scroll{
         width: 168px;
@@ -127,7 +125,7 @@ width: 155px;
         width: 630px;
         margin-top: 66px;
         font-size: 64px;
-        line-height: 1.16;
+        line-height: 1.16;/* 115.625% */
     }
     .link-scroll{
         margin-left: 181px;

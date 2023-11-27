@@ -1,5 +1,5 @@
 .footer {
-    background-image: url('./img/footer/footer-back-mob.png');
+    background-image: url('../img/footer/footer-back-mob.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 375px;
@@ -9,7 +9,7 @@
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) { 
     .footer {
-    background-image: url('./img/footer/footer-back-mob@2x.png');
+    background-image: url('../img/footer/footer-back-mob@2x.png');
     }
 }
 .footer-container {
@@ -59,7 +59,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 
 @media screen and (min-width: 768px) {
     .footer {
-            background-image: url('./img/footer/footer-back-tab.png');
+            background-image: url('../img/footer/footer-back-tab.png');
             background-position: right;
             background-size: 174px;
         }
@@ -68,7 +68,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         screen and (min-resolution: 2dppx) and (min-width: 768px),
         screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
             .footer {
-                background-image: url('./img/footer/footer-back-tab@2x.png');
+                background-image: url('../img/footer/footer-back-tab@2x.png');
             }
         }
     
@@ -97,7 +97,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 /* ================= Desktop 1280 style ================ */
 @media screen and (min-width: 1280px) {
     .footer {
-        background-image: url('./img/footer/footer-back-desk1280.png');
+        background-image: url('../img/footer/footer-back-desk1280.png');
         background-position: top right;
         background-size: 336px;
     }
@@ -106,7 +106,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
         .footer {
-            background-image: url('./img/footer/footer-back-desk1280@2x.png');
+            background-image: url('../img/footer/footer-back-desk1280@2x.png');
         }
     }
 
@@ -125,7 +125,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 /* ================= Desktop 1440 style ================ */
 @media screen and (min-width: 1440px) {
     .footer {
-        background-image: url('./img/footer/footer-back-desk1440.png');
+        background-image: url('../img/footer/footer-back-desk1440.png');
         background-position: top right;
         background-size: 496px;
     }
@@ -134,7 +134,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
         .footer {
-            background-image: url('./img/footer/footer-back-desk1440@2x.png');
+            background-image: url('../img/footer/footer-back-desk1440@2x.png');
         }
     }
 }

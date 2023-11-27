@@ -35,7 +35,7 @@
 }
 
 .our-colection-section {
-  background-image: url('./img/collection/collection-background-mob.png');
+  background-image: url('../img/collection/collection-background-mob.png');
   background-repeat: no-repeat;
   background-position: left top 298px;
   background-size: 72px;
@@ -44,7 +44,7 @@
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .our-colection-section {
-    background-image: url('./img/collection/collection-background-mob@2x.png');
+    background-image: url('../img/collection/collection-background-mob@2x.png');
   }
 }
 /* ================ /MOBILE STYLE ================ */
@@ -52,7 +52,7 @@
 /* ================ TABLET STYLES ================ */
 @media screen and (min-width: 768px) {
   .our-colection-section {
-    background-image: url('./img/collection/collection-background-tab.png');
+    background-image: url('../img/collection/collection-background-tab.png');
     background-position: left top 221px;
     background-size: 114px;
   }
@@ -60,7 +60,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .our-colection-section {
-      background-image: url('./img/collection/collection-background-tab@2x.png');
+      background-image: url('../img/collection/collection-background-tab@2x.png');
     }
   }
 
@@ -118,14 +118,14 @@
 /* ================ DESKTOP 1280 STYLES ================ */
 @media screen and (min-width: 1280px) {
   .our-colection-section {
-    background-image: url('./img/collection/collection-background-desktop.png');
+    background-image: url('../img/collection/collection-background-desktop.png');
     background-size: 169px;
   }
   @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .our-colection-section {
-      background-image: url('./img/collection/collection-background-desktop@2x.png');
+      background-image: url('../img/collection/collection-background-desktop@2x.png');
     }
   }
 
