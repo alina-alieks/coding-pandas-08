@@ -50,10 +50,10 @@ html {
     line-height: 1.29;
     text-transform: uppercase;
     color: #1C2225;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .mob-nav-item:last-child {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .mob-nav-item-link{
     padding: 10px 0;
@@ -78,7 +78,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
         background-image: url(../img/mob-menu/mob-menu-tablet.png)
     }
     .mob-nav-item{
-        padding-bottom: 25px;
+        margin-bottom: 25px;
     }
     .mob-menu-close {
         top: 20px;
