@@ -7,7 +7,7 @@
   gap: 20px;
 }
 .colection-border {
-  width: 335px;
+  max-width: 335px;
 }
 .img-hov {
   width: 100%;
@@ -115,6 +115,7 @@
   }
 
   .colection-border {
+    max-width: 342px;
     width: calc((100% - 20px) / 2);
   }
 
@@ -194,6 +195,7 @@
   }
 
   .colection-border {
+    max-width: 347px;
     width: calc((100% - 19px * 2) / 3);
   }
 
@@ -271,7 +273,7 @@
   }
 
   .colection-border {
-    width: 400px;
+    max-width: 400px;
     height: 492px;
   }
 }
