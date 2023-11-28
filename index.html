@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/coding-pandas-08/assets/favicon-6657f36c.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ukrainian traditional clothes" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -21,7 +22,7 @@
     <title>Vyshyvanka</title>
     
     <script type="module" crossorigin src="/coding-pandas-08/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/coding-pandas-08/assets/index-73bb1306.css">
+    <link rel="stylesheet" href="/coding-pandas-08/assets/index-f1ec7cc3.css">
   </head>
   <body>
     <header class="header">
@@ -58,6 +59,7 @@
           class="sotial-link"
           href="https://www.facebook.com/goITclub/"
           target="_blank"
+          aria-label="facebook"
         >
           <svg class="sotial-icon" width="28" height="28">
             <use href="/coding-pandas-08/assets/icons-41cb2b87.svg#icon-facebook"></use>
@@ -69,6 +71,7 @@
           class="sotial-link"
           href="https://www.instagram.com/goitclub/"
           target="_blank"
+          aria-label="instagram"
         >
           <svg class="sotial-icon" width="28" height="28">
             <use href="/coding-pandas-08/assets/icons-41cb2b87.svg#icon-instagram"></use>
@@ -80,6 +83,7 @@
           class="sotial-link"
           href=" https://www.youtube.com/c/GoIT"
           target="_blank"
+          aria-label="youtube"
         >
           <svg class="sotial-icon" width="28" height="28">
             <use href="/coding-pandas-08/assets/icons-41cb2b87.svg#icon-youtube"></use>
@@ -87,7 +91,7 @@
         </a>
       </li>
     </ul>
-    <button class="burger-menu" type="button" data-menu-open>
+    <button class="burger-menu" type="button"  aria-label="open menu" data-menu-open>
       <svg class="burger-icon" width="36" height="24">
         <use href="/coding-pandas-08/assets/icons-41cb2b87.svg#icon-burger"></use>
       </svg>
@@ -117,29 +121,15 @@
       </svg>
       <p class="icon-star-text">all embroidery is made by hand</p>
     </div>
-    <picture class="map-urkaine">
-      <!-- Для екранів 768px+ -->
-      <source
-        media="(min-width: 768px) and (max-width: 1279px)"
-        srcset="/coding-pandas-08/assets/hero-map-0d572fe4.png 1x, /coding-pandas-08/assets/hero-map@2x-abe682c1.png 2x"
-        width="157"
-        height="191"
-      />
-      <!-- Для екранів 1280px+ -->
-      <source
-        media="(min-width: 1280px) and (max-width: 1440px)"
-        srcset="/coding-pandas-08/assets/hero-map-0d572fe4.png 1x, /coding-pandas-08/assets/hero-map@2x-abe682c1.png 2x"
-        width="142"
-        height="156"
-      />
-      <!-- Зображення за замовчуванням, якщо жодна з умов не виконується -->
-      <img
-        src="/coding-pandas-08/assets/hero-map-0d572fe4.png"
-        width="142"
-        height="156"
-        alt="map-ukraine"
-      />
-    </picture>
+    <img
+      class="map-urkaine"
+      srcset="/coding-pandas-08/assets/hero-map-0d572fe4.png 1x, /coding-pandas-08/assets/hero-map@2x-abe682c1.png 2x"
+      src="/coding-pandas-08/assets/hero-map-0d572fe4.png"
+      width="139"
+      height="197"
+      alt="ukraine map"
+    />
+
     <picture class="hero-girl-photo">
       <!-- Для екранів 320px+ -->
       <source
@@ -515,7 +505,7 @@
       >+380 (68) 443-94-26</a
     >
   </address>
-  <button class="mob-menu-close" data-menu-close>
+  <button class="mob-menu-close" aria-label="close menu" data-menu-close>
     <svg class="mob-menu-close-icon" width="36" height="36">
       <use href="/coding-pandas-08/assets/icons-41cb2b87.svg#icon-x"></use>
     </svg>
