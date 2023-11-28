@@ -19,15 +19,35 @@
       </svg>
       <p class="icon-star-text">all embroidery is made by hand</p>
     </div>
-    <img
-      class="map-urkaine"
-      srcset="./img/hero-img/hero-map.png 1x, ./img/hero-img/hero-map@2x.png 2x"
-      src="./img/hero-img/hero-map.png"
-      width="139"
-      height="197"
-      alt="ukraine map"
-    />
-
+    <picture class="map-urkaine">
+      <!-- Для екранів 768px+ -->
+      <source
+        media="(min-width: 768px) and (max-width: 1279px)"
+        srcset="
+          ./img/hero-img/hero-map.png    1x,
+          ./img/hero-img/hero-map@2x.png 2x
+        "
+        width="157"
+        height="191"
+      />
+      <!-- Для екранів 1280px+ -->
+      <source
+        media="(min-width: 1280px) and (max-width: 1440px)"
+        srcset="
+          ./img/hero-img/hero-map.png    1x,
+          ./img/hero-img/hero-map@2x.png 2x
+        "
+        width="142"
+        height="156"
+      />
+      <!-- Зображення за замовчуванням, якщо жодна з умов не виконується -->
+      <img
+        src="./img/hero-img/hero-map.png"
+        width="142"
+        height="156"
+        alt="map-ukraine"
+      />
+    </picture>
     <picture class="hero-girl-photo">
       <!-- Для екранів 320px+ -->
       <source
