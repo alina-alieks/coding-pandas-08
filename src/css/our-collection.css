@@ -187,12 +187,17 @@
   }
 
   .colection-border {
-    position: relative;
     width: calc((100% - 19px * 2) / 3);
     overflow: hidden;
   }
 
-  .colection-border:hover .overlay {
+  .overlay-border {
+    position: relative;
+    width: 347px;
+    height: 430px;
+  }
+
+  .overlay-border:hover .overlay {
     transform: translateY(0%);
   }
 
@@ -201,10 +206,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 88%;
+    width: 100%;
+    height: 103%;
     background-color: #1c2225;
     border-radius: 6px;
-    padding: 35px 20px;
+    padding: 30px 15px;
     overflow: auto;
     transform: translateY(120%);
     transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -219,7 +225,7 @@
   }
 
   .overlay-title {
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     text-transform: uppercase;
     color: #ecd979;
@@ -227,7 +233,7 @@
   }
 
   .overlay-text {
-    font-size: 14px;
+    font-size: 12px;
     color: #fcf9f9;
     text-align: justify;
   }
