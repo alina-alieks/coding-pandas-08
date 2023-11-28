@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 375px;
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
