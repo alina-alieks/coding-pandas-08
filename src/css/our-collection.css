@@ -6,6 +6,13 @@
   flex-direction: column;
   gap: 20px;
 }
+.colection-border {
+  width: 335px;
+}
+.img-hov {
+  width: 100%;
+  height: 100%;
+}
 
 .section-title {
   text-align: center;
@@ -192,7 +199,7 @@
 
   .overlay-border {
     position: relative;
-    width: 347px;
+    width: 100%;
     height: 430px;
     overflow: hidden;
   }
